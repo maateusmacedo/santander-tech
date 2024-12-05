@@ -37,6 +37,14 @@ git pull ➩ *(comando para puxar as alterações feitas diretamente no reposit�
 git fetch ➩ *(esse comando serve para visualizar as informações que possuem no repositório remoto, como o GitHub, antes de copiar na máquina local. esse comando pode ser mais seguro do que utilizar o 'git pull' direto)* 
     Depois desse comando git fetch, utiliza-se o comando 'git diff origin/master' para visualizar no terminal/prompt de comando as informações que serão adicionadas.
 
+### para mudar de master para main  
+
+git branch -M main *(comando)*
+
+git remote add origin {nome do repositório}
+
+git push -u origin main *(comando para enviar para o repositório remoto)*
+
 ## Branches
     são ramificações que podemos fazer no nosso código
 
