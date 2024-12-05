@@ -56,5 +56,9 @@ git checkout {nome da branch que queremos ir} ➩ *(esse comando nos permite mud
 
 ![alt text](image-1.png)
 
+git branch ➩ lista todas as branchs existentes no projeto
+
+git merge {nome da branch que eu quero trazer pro arquivo que estou dentro} ➩ esse comando traz as informações para dentro da branch que estou no momento. exemplo: se tenho duas branchs chamadas 1 e 2 e quero pegar as informações da 1, eu tenho que estar dentro da branch 2 e digitar o comando git merge 1.
+
 ## Gitignore
     é um arquivo dentro do projeto que fará com que o git ignore partes do projeto, para isso precisamos criar um arquivo .gitignore dentro da pasta do nosso projeto. O gitignore lê arquivos JSON
