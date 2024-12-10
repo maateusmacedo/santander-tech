@@ -9,8 +9,8 @@ if (numero1 > 10) {
     console.log("Esse número não é maior que 10")
 }
 
-if ( numero1 >= numero2) {
-    console.log(`${numero1}  é maior ou igual que ${numero2}`)
+if (numero1 >= numero2) {
+    console.log(`${numero1} é maior ou igual que ${numero2}`)
 }
 
 // ternários
